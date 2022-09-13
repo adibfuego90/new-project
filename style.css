@@ -3,7 +3,7 @@
     padding: 0;
 }
 #navigation {
-    background:blue;
+    background-image: linear-gradient(dodgerblue,rgb(15, 97, 179));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +48,9 @@
     width:150px ;
     position:absolute ;
     transition: 0.5s;
+    box-shadow: 10px 10px 8px black;
+    transform: scaleY(0);
+    transform-origin: top center;
 
 }
 .dropdown>li{
@@ -68,5 +71,6 @@
 #navigation>ul>li:hover>.dropdown{
    opacity: 1;
    visibility: visible;
+   transform:scaleY(1);
 
 }
