@@ -38,3 +38,35 @@
 #navigation >ul>li:hover>a{
     background-color: rgb(3,87,172);
 }
+/* droop down menu start from here */
+.dropdown{
+    opacity: 0;
+    visibility: hidden;
+    background-color: blue;
+    text-align: center;
+    margin-top: 15px ;
+    width:150px ;
+    position:absolute ;
+    transition: 0.5s;
+
+}
+.dropdown>li{
+    list-style-type: none;
+    padding: 10px 0px;
+    border-bottom:1px solid white  ;
+}
+.dropdown>li:hover{
+    background-color:rgb(3,87,172); ;
+}
+.dropdown>li:first-child{
+    border-top:1px solid white
+}
+.dropdown>li>a{
+    text-decoration: none;
+    color:white;
+}
+#navigation>ul>li:hover>.dropdown{
+   opacity: 1;
+   visibility: visible;
+
+}
