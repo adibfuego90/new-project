@@ -38,6 +38,14 @@
 #navigation >ul>li:hover>a{
     background-color: rgb(3,87,172);
 }
+.logo >h2{
+    color: white;
+    margin-left: 50px;
+}
+.logo-firstLetter{
+    color: yellow;
+    font-size: 30px;
+}
 /* droop down menu start from here */
 .dropdown{
     opacity: 0;
@@ -73,4 +81,14 @@
    visibility: visible;
    transform:scaleY(1);
 
+}
+
+/* hero area start from here */
+.main-header{
+    background-image: url('/adibur.jpg');
+    height: 90vh;
+    text-align: center;
+}
+.header-container{
+    padding-top: 70px;
 }
